@@ -1,6 +1,7 @@
 ---
 dependencies:
   - role: troykinsella.go
+    sudo: true
 galaxy_info:
   author: Troy Kinsella
   description: Install my workstation
