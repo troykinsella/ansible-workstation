@@ -1,5 +1,8 @@
 ---
 dependencies:
+  - role: troykinsella.me
+    troy_dotfiles_identity_files: yes
+    troy_dotfiles_workstation_files: yes
   - role: troykinsella.go
     sudo: true
 galaxy_info:
