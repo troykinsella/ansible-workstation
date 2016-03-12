@@ -1,0 +1,12 @@
+---
+- name: install workstation packages
+  apt:
+    state: latest
+    pkg: "{{ item }}"
+  sudo: true
+  with_items:
+  - chromium-browser
+  - gkrellm
+  - gkrelltop
+  - virtualbox
+  - vagrant

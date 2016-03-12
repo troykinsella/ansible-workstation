@@ -1,0 +1,17 @@
+---
+dependencies:
+  - role: troykinsella.go
+galaxy_info:
+  author: Troy Kinsella
+  description: Install my workstation
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+  galaxy_tags:
+  - workstation
