@@ -10,6 +10,7 @@ dependencies:
     become: yes
   - role: troykinsella.nodejs
     become: yes
+  - role: troykinsella.ruby
 galaxy_info:
   author: Troy Kinsella
   description: Install my workstation
