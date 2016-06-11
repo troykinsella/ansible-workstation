@@ -1,6 +1,8 @@
 troykinsella.workstation
 ========================
 
+Install my workstation
+
 Example Playbook
 ----------------
 

@@ -3,13 +3,14 @@ dependencies:
   - role: troykinsella.me
     troy_dotfiles_identity_files: yes
     troy_dotfiles_workstation_files: yes
+  - role: troykinsella.docker
   - role: troykinsella.go
-    sudo: true
+    become: yes
 galaxy_info:
   author: Troy Kinsella
   description: Install my workstation
   license: MIT
-  min_ansible_version: 1.2
+  min_ansible_version: 1.9
   platforms:
   - name: Ubuntu
     versions:
@@ -17,5 +18,6 @@ galaxy_info:
     - utopic
     - vivid
     - wily
+    - xenial
   galaxy_tags:
   - workstation
