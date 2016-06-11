@@ -8,6 +8,8 @@ dependencies:
     become: yes
   - role: troykinsella.java
     become: yes
+  - role: troykinsella.nodejs
+    become: yes
 galaxy_info:
   author: Troy Kinsella
   description: Install my workstation
