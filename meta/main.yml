@@ -6,6 +6,8 @@ dependencies:
   - role: troykinsella.docker
   - role: troykinsella.go
     become: yes
+  - role: troykinsella.java
+    become: yes
 galaxy_info:
   author: Troy Kinsella
   description: Install my workstation
